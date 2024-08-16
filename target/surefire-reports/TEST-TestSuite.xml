@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="6.181" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pratham\eclipse-workspace\prathamQa.com\target\test-classes;C:\Users\Pratham\eclipse-workspace\prathamQa.com\target\classes;C:\Users\Pratham\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Pratham\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Pratham\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Pratham\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Pratham\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Pratham\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Pratham\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Pratham\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Pratham\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Pratham\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Pratham\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Pratham\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Pratham\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Pratham\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Pratham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Pratham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Pratham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Pratham\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Pratham\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Pratham\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Pratham\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Pratham\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Pratham\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Pratham\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Pratham\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Pratham\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Pratham\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Pratham\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Pratham\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Pratham\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\Pratham\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Pratham\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-testng\2.28.1\allure-testng-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-java-commons\2.28.1\allure-java-commons-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-model\2.28.1\allure-model-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-test-filter\2.28.1\allure-test-filter-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-rest-assured\2.29.0\allure-rest-assured-2.29.0.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-attachments\2.29.0\allure-attachments-2.29.0.jar;C:\Users\Pratham\.m2\repository\org\freemarker\freemarker\2.3.33\freemarker-2.3.33.jar;C:\Users\Pratham\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Pratham\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Pratham\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Pratham\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Pratham\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pratham\AppData\Local\Temp\surefire6984376618988529462\surefirebooter-20240816160242930_3.jar C:\Users\Pratham\AppData\Local\Temp\surefire6984376618988529462 2024-08-16T16-02-42_781-jvmRun1 surefire-20240816160242930_1tmp surefire_0-20240816160242930_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pratham\eclipse-workspace\prathamQa.com\target\test-classes;C:\Users\Pratham\eclipse-workspace\prathamQa.com\target\classes;C:\Users\Pratham\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Pratham\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Pratham\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Pratham\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Pratham\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Pratham\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Pratham\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Pratham\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Pratham\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Pratham\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Pratham\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Pratham\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Pratham\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Pratham\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Pratham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Pratham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Pratham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Pratham\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Pratham\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Pratham\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Pratham\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Pratham\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Pratham\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Pratham\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Pratham\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Pratham\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Pratham\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Pratham\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Pratham\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Pratham\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Pratham\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Pratham\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\Pratham\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Pratham\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-testng\2.28.1\allure-testng-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-java-commons\2.28.1\allure-java-commons-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-model\2.28.1\allure-model-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-test-filter\2.28.1\allure-test-filter-2.28.1.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-rest-assured\2.29.0\allure-rest-assured-2.29.0.jar;C:\Users\Pratham\.m2\repository\io\qameta\allure\allure-attachments\2.29.0\allure-attachments-2.29.0.jar;C:\Users\Pratham\.m2\repository\org\freemarker\freemarker\2.3.33\freemarker-2.3.33.jar;C:\Users\Pratham\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Pratham\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Pratham\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Pratham\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Pratham\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pratham"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pratham\eclipse-workspace\prathamQa.com"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pratham\AppData\Local\Temp\surefire6984376618988529462\surefirebooter-20240816160242930_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="Pratham"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pratham\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pratham\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\Pratham\eclipse-workspace\prathamQa.com"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin/server;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\allure-2.30.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\maven\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Pratham\AppData\Local\Android\Sdk\tools;C:\Users\Pratham\AppData\Local\Android\Sdk\platform-tools;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Pratham\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Android\Android Studio\bin;C:\Users\Pratham\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Pratham\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Java\jdk-17\lib;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\Pratham\VirtualBox VMs\axis2-1.6.2\bin;C:\Users\Pratham\scoop\shims;C:\Users\Pratham\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.1\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\aircrack-ng-1.6-win\aircrack-ng-1.6-win\bin;C:\Users\Pratham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pratham\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\Pratham\AppData\Roaming\npm;;C:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldBeAbleToCreataPlaylistWithInvalidToken" classname="prathamQa.com.spotify.oauth2.test.PlayListTests" time="3.436">
+    <system-out><![CDATA[Stratint Test: shouldBeAbleToUpdatePlaylist
+Stratint Test: shouldNotBeAbleToCreataPlaylistWithoutName
+Stratint Test: getCreatedPlaylist
+Stratint Test: shouldBeAbleToCreataPlaylistWithInvalidToken
+Thread ID: 30
+Thread ID: 31
+Thread ID: 32
+Thread ID: 33
+Renew token....!!!!
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQC1Ly7QNaqVyCLWcyQ-NPBM1Z787iKdCwTB5qiJ50JDLW3KnvE6J1vTutjdJPDPkjClMf2y7zeafAWok5mXk00xHbfeZsb1_L_93bsz2m4JxSr_Mwq_Fkde3Ha7YpZp8zU
+				grant_type=refresh_token
+				client_secret=fa5d17ee5b8544f7990894a923c4f3ce
+				client_id=5ec07695f24f4008b9ebac0b20fa81bb
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users31kndgd3f7mfh7hc62qfckeezlca/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "collaborative": null,
+    "description": "Description __ J_aU+_# E+/B+&+_##_6 & +&&H +6kP#&+_+ 4&J2+  g_",
+    "external_urls": null,
+    "followers": null,
+    "href": null,
+    "id": null,
+    "images": null,
+    "name": "Playlist --_9   I__",
+    "owner": null,
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": null,
+    "tracks": null,
+    "type": null,
+    "uri": null
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 16 Aug 2024 10:32:47 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+HTTP/1.1 200 OK
+date: Fri, 16 Aug 2024 10:32:48 GMT
+content-type: application/json
+vary: Accept-Encoding
+x-request-id: a65ec2f2-84b8-47be-82d9-68b7b7e281ae
+set-cookie: __Host-device_id=AQAdsgvlMd2oiGidPK6wJtq6OAXC438B1xwCqhmWQMoSS4ons237aoULE2lbu6NmFdBw9lgbA07-Ybcxs8dtvmnex-aCqfPkj2c;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: b6b5553ad3c013c3
+content-encoding: gzip
+x-envoy-upstream-service-time: 23
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQAmVLBZPzu7Ag2JhIISeKbhYF37q1tHmTO_uwJXdC43-_De9JJa1geJWdDGjLxY1vsPRmzjKwCgfwwMxfaaGsH9jElXpvU826ukyc1sRJ4XnHcbeI2kANpOodC4sybMWXn_vvZZgKWFb13F8r-xRjlIKxRzG8KVVH6xoBqNHI2Tg3_l28yVp23XEt5qorZVoQ1KTXoki72nEuHil7uWKUJlWNP4orqzYN5bi-WaWstVvniI2a1mZ21F9q8sh4wiP-3sSHz-P9s-OB0CLRsY5qra",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotBeAbleToCreataPlaylistWithoutName" classname="prathamQa.com.spotify.oauth2.test.PlayListTests" time="4.446">
+    <system-out><![CDATA[Token is Good To USE......
+Token is Good To USE......
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/3mrHzEvb51WdUMmQPHqkQ1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "collaborative": null,
+    "description": "Description   l._E& O+_+n#G+&# & M_ _2#iUne_&+&/Q #+#+ #X&6D+/",
+    "external_urls": null,
+    "followers": null,
+    "href": null,
+    "id": null,
+    "images": null,
+    "name": "Playlist hp6__Dj,,,",
+    "owner": null,
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": null,
+    "tracks": null,
+    "type": null,
+    "uri": null
+}
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/3mrHzEvb51WdUMmQPHqkQ1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31kndgd3f7mfh7hc62qfckeezlca/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "collaborative": null,
+    "description": "Description V+&_h1F-#r&l+/+eI#hh & Y#ol&_&_ # o##_a#_j&&#m+__&",
+    "external_urls": null,
+    "followers": null,
+    "href": null,
+    "id": null,
+    "images": null,
+    "name": "",
+    "owner": null,
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": null,
+    "tracks": null,
+    "type": null,
+    "uri": null
+}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 16 Aug 2024 10:32:49 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToUpdatePlaylist" classname="prathamQa.com.spotify.oauth2.test.PlayListTests" time="4.552">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 16 Aug 2024 10:32:49 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+  <testcase name="getCreatedPlaylist" classname="prathamQa.com.spotify.oauth2.test.PlayListTests" time="4.575">
+    <failure message="&#10;Expected: &quot;Playlist _w -zww_,,&quot;&#10;     but: was &quot;Playlist G_ ,Y10_vI&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: "Playlist _w -zww_,,"
+     but: was "Playlist G_ ,Y10_vI"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at prathamQa.com.spotify.oauth2.test.PlayListTests.assertPlayList(PlayListTests.java:35)
+	at prathamQa.com.spotify.oauth2.test.PlayListTests.getCreatedPlaylist(PlayListTests.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-ImE3ZWE0YjNkMjY5OTJhZGJhZmQ5M2Y5MTQ4Nzg4Y2EwIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 16 Aug 2024 10:32:49 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Description &amp;uM3+&amp;&amp;+#+r&amp;&amp;__  xQ#1_7&amp;ok+3#&amp;&amp;+&amp;o cd_ +__+#+ _-R+",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3mrHzEvb51WdUMmQPHqkQ1"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/3mrHzEvb51WdUMmQPHqkQ1",
+    "id": "3mrHzEvb51WdUMmQPHqkQ1",
+    "images": null,
+    "name": "Playlist G_ ,Y10_vI",
+    "owner": {
+        "display_name": "Test",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31kndgd3f7mfh7hc62qfckeezlca"
+        },
+        "href": "https://api.spotify.com/v1/users/31kndgd3f7mfh7hc62qfckeezlca",
+        "id": "31kndgd3f7mfh7hc62qfckeezlca",
+        "type": "user",
+        "uri": "spotify:user:31kndgd3f7mfh7hc62qfckeezlca"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACs3WZtC4TlPwwOlY+12JcFvIz48b",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3mrHzEvb51WdUMmQPHqkQ1/tracks?offset=0&limit=0",
+        "items": [
+            
+        ],
+        "limit": 0,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3mrHzEvb51WdUMmQPHqkQ1"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
